@@ -1,0 +1,86 @@
+@font-face {
+  font-family: yekan;
+  src: url(../Font/BYekan-/BYekan/BYekan+.ttf);
+}
+@font-face {
+  font-family: sansbold;
+  src: url(../Font/iranian-sans-cufonfonts-webfont/irsansb.woff);
+}
+@font-face {
+  font-family: sans;
+  src: url(../Font/iranian-sans-cufonfonts-webfont/irsans.woff);
+}
+.main {
+  background: #ffd3b6;
+}
+.bold {
+  font-family: sansbold;
+}
+.products-lft {
+  font-family: sans;
+  border: 1px solid #1e1f26;
+  border-radius: 0px 50px 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 30px;
+}
+.products-right {
+  font-family: sans;
+  border: 1px solid #1e1f26;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 30px;
+}
+.products-my {
+  font-family: yekan;
+  border: 1px solid;
+  border-radius: 10px;
+  /* padding: 12px;
+  margin-top: 3px; */
+}
+.products-li {
+  font-family: yekan;
+  background-color: #3f3b3bc5;
+  color: #ffffff;
+  padding: 2%;
+  border-radius: 20px;
+}
+.items {
+  font-family: sans;
+  border: 2px;
+  border-radius: 6px 20px 6px 30px;
+  background: #d6c9c9;
+  color: #1e1f26;
+  padding: 5px;
+}
+.login {
+  border-radius: 20px;
+  font-family: yekan;
+  background: #4e4e4ed0;
+  color: #ffffff;
+}
+.lahzeyi {
+  background-color: #4e4e4ed0;
+}
+.uper {
+  border-radius: 25px;
+  background: #3f3b3bc5;
+  color: #ffffff;
+}
+/* @media screen and (min-width: 375px) {
+  .products-lft-mb {
+    border: 1px solid #1e1f26;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 50%;
+  }
+  .products-right-mb {
+    border: 1px solid #1e1f26;
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 50%;
+  }
+} */
